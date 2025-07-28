@@ -1,3 +1,4 @@
+@layer theme, base, mui, components, utilities;
 @import "tailwindcss";
 
 :root {
@@ -10,10 +11,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: #143e39;
+  --color-primary-light: #00d195;
+  --color-primary-dark: #00140e;
+  --color-primary-shade: #1b2d29;
+  --color-primary-alt: #098c67;
+  --color-primary-neutral: #263835;
+  --color-secondary: #11b5e4;
+  --color-secondary-dark: #1b3d87;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    /* --background: #0a0a0a;
+    --foreground: #ededed; */
     --background: #0a0a0a;
     --foreground: #ededed;
   }
