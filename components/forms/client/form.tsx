@@ -1,7 +1,7 @@
 "use client";
 import { AppButton } from "@/components";
 import { TextField } from "@mui/material";
-import { FormEvent, ChangeEvent, useState, MouseEvent, useEffect } from "react";
+import { FormEvent, ChangeEvent, useState } from "react";
 import { FormWrapper } from "../wrapper";
 import { useClientActions } from "@/lib/redux/reducers/client/actions";
 import classNames from "classnames";
